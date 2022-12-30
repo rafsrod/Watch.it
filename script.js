@@ -116,11 +116,13 @@ const standupList = [{
 
 const contentList = document.querySelector(".listOfContent");
 const allContentTxt = document.getElementById("all-content-txt");
+const mightLikeTxt = document.getElementById("might-like");
+
 const weekSuggestionList = document.querySelector(".sugg-content")
 
 const allContentArr = [].concat(moviesList, seriesList, docsList, animeList, standupList);
 createIt(allContentArr);
-suggestion(allContentArr);
+
 
 const moviesSelectorStatus = document.querySelector("#div-movies-select");
 const seriesSelectorStatus = document.querySelector("#div-series-select");
@@ -161,7 +163,9 @@ function createIt(arrGender) {
 function showHome(){
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Content";
+  mightLikeTxt.innerHTML = "";
   createIt(allContentArr);
 }
 
@@ -169,11 +173,14 @@ function showMovies() {
 
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Movies";
+  mightLikeTxt.innerHTML = "You might also like: ";
   moviesSelectorStatus.hidden = false; //set the filter selector to show on the screen
   //
 
   createIt(moviesList); //create default list with all the movies
+  suggestion(allContentArr);
 
   if (moviesSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#movies-genre-select").addEventListener("input", (event) => { 
@@ -222,10 +229,13 @@ function showMovies() {
 function showSeries() {
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All TV Series";
+  mightLikeTxt.innerHTML = "You might also like: ";
   seriesSelectorStatus.hidden = false;
 
   createIt(seriesList); //create default list with all the series
+  suggestion(allContentArr);
 
   if (seriesSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#series-genre-select").addEventListener("input", (event) => { 
@@ -274,10 +284,13 @@ function showSeries() {
 function showAnime() {
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Anime";
+  mightLikeTxt.innerHTML = "You might also like: ";
   animeSelectorStatus.hidden = false;
 
   createIt(animeList); //create default list with all the series
+  suggestion(allContentArr);
 
   if (animeSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#anime-genre-select").addEventListener("input", (event) => { 
@@ -325,10 +338,13 @@ function showAnime() {
 function showDocs() {
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Documentaries";
+  mightLikeTxt.innerHTML = "You might also like: ";
   docsSelectorStatus.hidden = false;
 
   createIt(docsList); //create default list with all the series
+  suggestion(allContentArr);
 
   if (docsSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#docs-genre-select").addEventListener("input", (event) => { 
@@ -376,10 +392,13 @@ function showDocs() {
 function showStandup() {
   clearAll();
   contentList.innerHTML = "";
-  allContentTxt.innerHTML = "All Standup Comedies";
+  weekSuggestionList.innerHTML = "";
+  allContentTxt.innerHTML = "All Stand Up Comedies";
+  mightLikeTxt.innerHTML = "You might also like: ";
   standupSelectorStatus.hidden = false;
 
   createIt(standupList); //create default list with all the series
+  suggestion(allContentArr);
 
   if (standupSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#standup-genre-select").addEventListener("input", (event) => { 
@@ -430,7 +449,7 @@ function showStandup() {
 
 function suggestion (array) {
   
-  for (i=0; i<8; i++) {
+  for (i=0; i<5; i++) {
     const random = array[Math.floor(Math.random()*array.length)];
     //create li item + create anchor with "href" + img with "src"
     const newItem = document.createElement("li");
