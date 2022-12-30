@@ -9,94 +9,96 @@
     
 </head>
 <body>
-    <h1>What would you like to watch??</h1>
+    <header>
+        <h1>What would you like to watch??</h1>
 
-    <p>This website will help you to find the perfect movie or TV serie to watch based on genre/filter selected.</p>
+        <p>This website will help you to find the perfect movie or TV serie to watch based on genre/filter selected.</p>
 
-    <h2>Select what would you like to watch: </h2>
-<div id="content-menu">
-    <ul>
-        <li class="menu"><button onclick="showMovies()">Movie</button></li>
-        <li class="menu"><button onclick="showSeries()">TV Serie</button></li>
-        <li class="menu"><button onclick="showAnime()">Anime</button></li>
-        <li class="menu"><button onclick="showDocs()">Documentaries</button></li>
-        <li class="menu"><button onclick="showStandup()">Standup Comedy</button></li>
-    </ul>
-</div>
+        <h2>Select what would you like to watch: </h2>
+        <div id="content-menu">
+            <ul>
+                <li class="menu"><button onclick="showHome()">Home</button></li>
+                <li class="menu"><button onclick="showMovies()">Movie</button></li>
+                <li class="menu"><button onclick="showSeries()">TV Serie</button></li>
+                <li class="menu"><button onclick="showAnime()">Anime</button></li>
+                <li class="menu"><button onclick="showDocs()">Documentaries</button></li>
+                <li class="menu"><button onclick="showStandup()">Standup Comedy</button></li>
+            </ul>
+        </div>
+    </header>
 
+    <main>
 
-<div id="div-movies-select">
-    <label for="movies-genre-select"></label>
-    <select name="movies-genre" id="movies-genre-select">
-        <option value="all" selected disabled>Select a Genre</option>
-        <option value="all">All Genres</option>
-        <option value="comedy">Comedy</option>
-        <option value="action">Action</option>
-        <option value="horror">Horror</option>
-        <option value="nature">Nature</option>
-    </select>
-</div>
+        <div id="div-movies-select">
+            <label for="movies-genre-select"></label>
+            <select name="movies-genre" id="movies-genre-select">
+                <option value="all" selected disabled>Select a Genre</option>
+                <option value="all">All Genres</option>
+                <option value="comedy">Comedy</option>
+                <option value="action">Action</option>
+                <option value="horror">Horror</option>
+                <option value="nature">Nature</option>
+            </select>
+        </div>
 
-<div id="div-series-select">
-    <label for="series-genre-select"></label>
-    <select name="series-genre" id="series-genre-select">
-        <option value="" selected disabled>Select a Genre</option>
-        <option value="all">All Genres</option>
-        <option value="comedy">Comedy</option>
-        <option value="action">Action</option>
-        <option value="horror">Horror</option>
-        <option value="sitcom">Sitcom</option>
-    </select>
-</div>
+        <div id="div-series-select">
+            <label for="series-genre-select"></label>
+            <select name="series-genre" id="series-genre-select">
+                <option value="" selected disabled>Select a Genre</option>
+                <option value="all">All Genres</option>
+                <option value="comedy">Comedy</option>
+                <option value="action">Action</option>
+                <option value="horror">Horror</option>
+                <option value="sitcom">Sitcom</option>
+            </select>
+        </div>
 
-<div id="div-anime-select">
-    <label for="anime-genre-select"></label>
-    <select name="anime-genre" id="anime-genre-select">
-        <option value="" selected disabled>Select a Genre</option>
-        <option value="all">All Genres</option>
-        <option value="action">Action</option>
-        <option value="comedy">Comedy</option>
-        <option value="drama">Drama</option>
-        <option value="fantasy">Fantasy</option>
-    </select>
-    </div>
+        <div id="div-anime-select">
+            <label for="anime-genre-select"></label>
+            <select name="anime-genre" id="anime-genre-select">
+                <option value="" selected disabled>Select a Genre</option>
+                <option value="all">All Genres</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="fantasy">Fantasy</option>
+            </select>
+            </div>
 
-<div id="div-docs-select">
-    <label for="docs-genre-select"></label>
-    <select name="docs-genre" id="docs-genre-select">
-        <option value="" selected disabled>Select a Genre</option>
-        <option value="all">All Genres</option>
-        <option value="nature">Nature</option>
-        <option value="politics">Politics</option>
-        <option value="drama">Drama</option>
-        <option value="religion">Religion</option>
-    </select>
-</div>
+        <div id="div-docs-select">
+            <label for="docs-genre-select"></label>
+            <select name="docs-genre" id="docs-genre-select">
+                <option value="" selected disabled>Select a Genre</option>
+                <option value="all">All Genres</option>
+                <option value="nature">Nature</option>
+                <option value="politics">Politics</option>
+                <option value="drama">Drama</option>
+                <option value="religion">Religion</option>
+            </select>
+        </div>
 
-<div id="div-standup-select">
-    <label for="standup-genre-select"></label>
-    <select name="standup-genre" id="standup-genre-select">
-        <option value="" selected disabled>Filter by Language</option>
-        <option value="all">All Languages</option>
-        <option value="english">English</option>
-        <option value="german">German</option>
-        <option value="portuguese">Portuguese</option>
-        <option value="spanish">Spanish</option>
-    </select>
-</div>
+        <div id="div-standup-select">
+            <label for="standup-genre-select"></label>
+            <select name="standup-genre" id="standup-genre-select">
+                <option value="" selected disabled>Filter by Language</option>
+                <option value="all">All Languages</option>
+                <option value="english">English</option>
+                <option value="german">German</option>
+                <option value="portuguese">Portuguese</option>
+                <option value="spanish">Spanish</option>
+            </select>
+        </div>
 
-<ul class="listOfContent"> 
+        <div id="all-content">
+            <p id="all-content-txt" >All content</p>
+            <ul class="listOfContent"> </ul>
 
-</ul>
+        </div>
 
-    <h3 id="weekly-sugg">Weekly Suggestion: </h3>
-    <ul class="rec-content">
-      <li><a href="">rec1</a></li>
-      <li><a href="">rec2</a></li>
-      <li><a href="">rec3</a></li>
-      <li><a href="">rec4</a></li>
-      <li><a href="">rec5</a></li>
-    </ul>
+            <h3 id="might-like">You might also like: </h3>
+            <ul class="sugg-content"></ul>
+
+    </main>
     
     <script src="./script.js"></script>
 </body>
