@@ -30,6 +30,86 @@ const moviesList = [{
   "description" : "controle remoto magico",
   "image" : "./content/movies/seasons.jpg",
   "link" : "https://www.imdb.com/title/tt4283358/"
+},
+{
+  "title" : "james bond",
+  "release" : "1920",
+  "genre" : "action",
+  "description" : "a spy who does it all",
+  "image" : "./content/movies/jamesbond.jpg",
+  "link" : "https://it.wikipedia.org/wiki/Agente_007_-_Missione_Goldfinger"
+},
+{
+  "title" : "click",
+  "release" : "2003",
+  "genre" : "comedy",
+  "description" : "controle remoto magico",
+  "image" : "./content/movies/click.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Click_(2006_film)"
+},
+{
+  "title" : "scream",
+  "release" : "1920",
+  "genre" : "horror",
+  "description" : "scream",
+  "image" : "./content/movies/scream.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Scream_(2022_film)"
+},
+{
+  "title" : "james bond",
+  "release" : "1920",
+  "genre" : "action",
+  "description" : "a spy who does it all",
+  "image" : "./content/movies/jamesbond.jpg",
+  "link" : "https://it.wikipedia.org/wiki/Agente_007_-_Missione_Goldfinger"
+},
+{
+  "title" : "click",
+  "release" : "2003",
+  "genre" : "comedy",
+  "description" : "controle remoto magico",
+  "image" : "./content/movies/click.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Click_(2006_film)"
+},
+{
+  "title" : "scream",
+  "release" : "1920",
+  "genre" : "horror",
+  "description" : "scream",
+  "image" : "./content/movies/scream.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Scream_(2022_film)"
+},
+{
+  "title" : "seasons",
+  "release" : "2003",
+  "genre" : "nature",
+  "description" : "controle remoto magico",
+  "image" : "./content/movies/seasons.jpg",
+  "link" : "https://www.imdb.com/title/tt4283358/"
+},
+{
+  "title" : "james bond",
+  "release" : "1920",
+  "genre" : "action",
+  "description" : "a spy who does it all",
+  "image" : "./content/movies/jamesbond.jpg",
+  "link" : "https://it.wikipedia.org/wiki/Agente_007_-_Missione_Goldfinger"
+},
+{
+  "title" : "click",
+  "release" : "2003",
+  "genre" : "comedy",
+  "description" : "controle remoto magico",
+  "image" : "./content/movies/click.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Click_(2006_film)"
+},
+{
+  "title" : "scream",
+  "release" : "1920",
+  "genre" : "horror",
+  "description" : "scream",
+  "image" : "./content/movies/scream.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Scream_(2022_film)"
 }];
 
 const seriesList = [{
@@ -47,7 +127,99 @@ const seriesList = [{
   "description" : "tbbt uhul",
   "image" : "./content/series/tbbt.jpg",
   "link" : "https://it.wikipedia.org/wiki/The_Big_Bang_Theory"
-}];
+},{
+  "title" : "friends",
+  "release" : "1997",
+  "genre" : "sitcom",
+  "description" : "friends",
+  "image" : "./content/series/friends.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Friends"
+},
+{
+  "title" : "tbbt",
+  "release" : "2010",
+  "genre" : "comedy",
+  "description" : "tbbt uhul",
+  "image" : "./content/series/tbbt.jpg",
+  "link" : "https://it.wikipedia.org/wiki/The_Big_Bang_Theory"
+},{
+  "title" : "friends",
+  "release" : "1997",
+  "genre" : "sitcom",
+  "description" : "friends",
+  "image" : "./content/series/friends.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Friends"
+},
+{
+  "title" : "tbbt",
+  "release" : "2010",
+  "genre" : "comedy",
+  "description" : "tbbt uhul",
+  "image" : "./content/series/tbbt.jpg",
+  "link" : "https://it.wikipedia.org/wiki/The_Big_Bang_Theory"
+},{
+  "title" : "friends",
+  "release" : "1997",
+  "genre" : "sitcom",
+  "description" : "friends",
+  "image" : "./content/series/friends.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Friends"
+},
+{
+  "title" : "tbbt",
+  "release" : "2010",
+  "genre" : "comedy",
+  "description" : "tbbt uhul",
+  "image" : "./content/series/tbbt.jpg",
+  "link" : "https://it.wikipedia.org/wiki/The_Big_Bang_Theory"
+},{
+  "title" : "friends",
+  "release" : "1997",
+  "genre" : "sitcom",
+  "description" : "friends",
+  "image" : "./content/series/friends.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Friends"
+},
+{
+  "title" : "tbbt",
+  "release" : "2010",
+  "genre" : "comedy",
+  "description" : "tbbt uhul",
+  "image" : "./content/series/tbbt.jpg",
+  "link" : "https://it.wikipedia.org/wiki/The_Big_Bang_Theory"
+},
+{
+  "title" : "friends",
+  "release" : "1997",
+  "genre" : "sitcom",
+  "description" : "friends",
+  "image" : "./content/series/friends.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Friends"
+},
+{
+  "title" : "tbbt",
+  "release" : "2010",
+  "genre" : "comedy",
+  "description" : "tbbt uhul",
+  "image" : "./content/series/tbbt.jpg",
+  "link" : "https://it.wikipedia.org/wiki/The_Big_Bang_Theory"
+},{
+  "title" : "friends",
+  "release" : "1997",
+  "genre" : "sitcom",
+  "description" : "friends",
+  "image" : "./content/series/friends.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Friends"
+},
+{
+  "title" : "tbbt",
+  "release" : "2010",
+  "genre" : "comedy",
+  "description" : "tbbt uhul",
+  "image" : "./content/series/tbbt.jpg",
+  "link" : "https://it.wikipedia.org/wiki/The_Big_Bang_Theory"
+}
+];
 
 
 const animeList = [{
@@ -67,13 +239,100 @@ const animeList = [{
 "link" : "https://en.wikipedia.org/wiki/Dragon_Ball_Z"
 },
 {
+  "title" : "naruto",
+  "release" : "1990",
+  "genre" : "action",
+  "description" : "ninjas",
+  "image" : "./content/anime/naruto.jpg",
+  "link" : "https://it.wikipedia.org/wiki/Naruto"
+  },
+{
   "title" : "Sword Art Online",
   "release" : "1992",
   "genre" : "fantasy",
   "description" : "fantasy anime",
   "image" : "./content/anime/sword_art_online.jpg",
   "link" : "https://myanimelist.net/anime/11757/Sword_Art_Online"
-  }
+  },{
+    "title" : "naruto",
+    "release" : "1990",
+    "genre" : "action",
+    "description" : "ninjas",
+    "image" : "./content/anime/naruto.jpg",
+    "link" : "https://it.wikipedia.org/wiki/Naruto"
+    },
+    {
+    "title" : "dragon ball z",
+    "release" : "1992",
+    "genre" : "action",
+    "description" : "fighting anime",
+    "image" : "./content/anime/dbz.jpg",
+    "link" : "https://en.wikipedia.org/wiki/Dragon_Ball_Z"
+    },
+    {
+      "title" : "Sword Art Online",
+      "release" : "1992",
+      "genre" : "fantasy",
+      "description" : "fantasy anime",
+      "image" : "./content/anime/sword_art_online.jpg",
+      "link" : "https://myanimelist.net/anime/11757/Sword_Art_Online"
+    },
+    {
+      "title" : "naruto",
+      "release" : "1990",
+      "genre" : "action",
+      "description" : "ninjas",
+      "image" : "./content/anime/naruto.jpg",
+      "link" : "https://it.wikipedia.org/wiki/Naruto"
+      },
+      {
+      "title" : "dragon ball z",
+      "release" : "1992",
+      "genre" : "action",
+      "description" : "fighting anime",
+      "image" : "./content/anime/dbz.jpg",
+      "link" : "https://en.wikipedia.org/wiki/Dragon_Ball_Z"
+      },
+      {
+        "title" : "Sword Art Online",
+        "release" : "1992",
+        "genre" : "fantasy",
+        "description" : "fantasy anime",
+        "image" : "./content/anime/sword_art_online.jpg",
+        "link" : "https://myanimelist.net/anime/11757/Sword_Art_Online"
+      },
+      {
+        "title" : "Sword Art Online",
+        "release" : "1992",
+        "genre" : "fantasy",
+        "description" : "fantasy anime",
+        "image" : "./content/anime/sword_art_online.jpg",
+        "link" : "https://myanimelist.net/anime/11757/Sword_Art_Online"
+      },
+      {
+        "title" : "naruto",
+        "release" : "1990",
+        "genre" : "action",
+        "description" : "ninjas",
+        "image" : "./content/anime/naruto.jpg",
+        "link" : "https://it.wikipedia.org/wiki/Naruto"
+        },
+        {
+        "title" : "dragon ball z",
+        "release" : "1992",
+        "genre" : "action",
+        "description" : "fighting anime",
+        "image" : "./content/anime/dbz.jpg",
+        "link" : "https://en.wikipedia.org/wiki/Dragon_Ball_Z"
+        },
+        {
+          "title" : "Sword Art Online",
+          "release" : "1992",
+          "genre" : "fantasy",
+          "description" : "fantasy anime",
+          "image" : "./content/anime/sword_art_online.jpg",
+          "link" : "https://myanimelist.net/anime/11757/Sword_Art_Online"
+        }   
 ];
 
 const docsList = [{
@@ -85,13 +344,53 @@ const docsList = [{
 "link" : "https://en.wikipedia.org/wiki/March_of_the_Penguins"
 },
 {
+  "title" : "Penguins",
+  "release" : "2000",
+  "genre" : "nature",
+  "description" : "penguins in the wild",
+  "image" : "./content/docs/penguins.jpg",
+  "link" : "https://en.wikipedia.org/wiki/March_of_the_Penguins"
+  },
+{
 "title" : "The Secret",
 "release" : "2006",
 "genre" : "religion",
 "description" : "the secret",
 "image" : "./content/docs/the_secret.jpg",
 "link" : "https://it.wikipedia.org/wiki/The_Secret_(film_2006)"
-}
+},
+{
+  "title" : "Penguins",
+  "release" : "2000",
+  "genre" : "nature",
+  "description" : "penguins in the wild",
+  "image" : "./content/docs/penguins.jpg",
+  "link" : "https://en.wikipedia.org/wiki/March_of_the_Penguins"
+  },
+  {
+  "title" : "The Secret",
+  "release" : "2006",
+  "genre" : "religion",
+  "description" : "the secret",
+  "image" : "./content/docs/the_secret.jpg",
+  "link" : "https://it.wikipedia.org/wiki/The_Secret_(film_2006)"
+  },
+  {
+    "title" : "Penguins",
+    "release" : "2000",
+    "genre" : "nature",
+    "description" : "penguins in the wild",
+    "image" : "./content/docs/penguins.jpg",
+    "link" : "https://en.wikipedia.org/wiki/March_of_the_Penguins"
+    },
+    {
+    "title" : "The Secret",
+    "release" : "2006",
+    "genre" : "religion",
+    "description" : "the secret",
+    "image" : "./content/docs/the_secret.jpg",
+    "link" : "https://it.wikipedia.org/wiki/The_Secret_(film_2006)"
+    }
 ];
 
 const standupList = [{
@@ -103,24 +402,68 @@ const standupList = [{
 "link" : "https://en.wikipedia.org/wiki/Kevin_Hart"
 },
 {
+  "title" : "kevin hart",
+  "release" : "2020",
+  "genre" : "english",
+  "description" : "kevin hart",
+  "image" : "./content/standup/kevin_hart.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Kevin_Hart"
+  },
+{
 "title" : "fluffy",
 "release" : "1999",
 "genre" : "spanish",
 "description" : "fluffy",
 "image" : "./content/standup/fluffy.jpg",
 "link" : "https://en.wikipedia.org/wiki/Gabriel_Iglesias"
-}
+},
+{
+  "title" : "kevin hart",
+  "release" : "2020",
+  "genre" : "english",
+  "description" : "kevin hart",
+  "image" : "./content/standup/kevin_hart.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Kevin_Hart"
+  },
+  {
+  "title" : "fluffy",
+  "release" : "1999",
+  "genre" : "spanish",
+  "description" : "fluffy",
+  "image" : "./content/standup/fluffy.jpg",
+  "link" : "https://en.wikipedia.org/wiki/Gabriel_Iglesias"
+  },
+  {
+    "title" : "kevin hart",
+    "release" : "2020",
+    "genre" : "english",
+    "description" : "kevin hart",
+    "image" : "./content/standup/kevin_hart.jpg",
+    "link" : "https://en.wikipedia.org/wiki/Kevin_Hart"
+    },
+    {
+    "title" : "fluffy",
+    "release" : "1999",
+    "genre" : "spanish",
+    "description" : "fluffy",
+    "image" : "./content/standup/fluffy.jpg",
+    "link" : "https://en.wikipedia.org/wiki/Gabriel_Iglesias"
+    }
+    
 ];
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////// 
-
+const screenSize = innerWidth;
 const contentList = document.querySelector(".listOfContent");
 const allContentTxt = document.getElementById("all-content-txt");
+const mightLikeTxt = document.getElementById("might-like");
+const divisorLine = document.getElementById("divisor");
+
 const weekSuggestionList = document.querySelector(".sugg-content")
 
 const allContentArr = [].concat(moviesList, seriesList, docsList, animeList, standupList);
 createIt(allContentArr);
-suggestion(allContentArr);
+
 
 const moviesSelectorStatus = document.querySelector("#div-movies-select");
 const seriesSelectorStatus = document.querySelector("#div-series-select");
@@ -158,10 +501,15 @@ function createIt(arrGender) {
   }); 
 }
 
+divisorLine.hidden = true;
+
 function showHome(){
   clearAll();
   contentList.innerHTML = "";
-  allContentTxt.innerHTML = "All Content";
+  weekSuggestionList.innerHTML = "";
+  allContentTxt.innerHTML = "All Content"
+  mightLikeTxt.innerHTML = "";
+  divisorLine.hidden = true;
   createIt(allContentArr);
 }
 
@@ -169,11 +517,14 @@ function showMovies() {
 
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Movies";
-  moviesSelectorStatus.hidden = false; //set the filter selector to show on the screen
-  //
+  mightLikeTxt.innerHTML = "You might also like: ";
+  moviesSelectorStatus.hidden = false; //set the filter selector to show on the screen //
+  divisorLine.hidden = false;
 
   createIt(moviesList); //create default list with all the movies
+  suggestion(allContentArr);
 
   if (moviesSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#movies-genre-select").addEventListener("input", (event) => { 
@@ -222,10 +573,14 @@ function showMovies() {
 function showSeries() {
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All TV Series";
+  mightLikeTxt.innerHTML = "You might also like: ";
   seriesSelectorStatus.hidden = false;
+  divisorLine.hidden = false;
 
   createIt(seriesList); //create default list with all the series
+  suggestion(allContentArr);
 
   if (seriesSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#series-genre-select").addEventListener("input", (event) => { 
@@ -274,10 +629,14 @@ function showSeries() {
 function showAnime() {
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Anime";
+  mightLikeTxt.innerHTML = "You might also like: ";
   animeSelectorStatus.hidden = false;
+  divisorLine.hidden = false;
 
   createIt(animeList); //create default list with all the series
+  suggestion(allContentArr);
 
   if (animeSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#anime-genre-select").addEventListener("input", (event) => { 
@@ -325,10 +684,14 @@ function showAnime() {
 function showDocs() {
   clearAll();
   contentList.innerHTML = "";
+  weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Documentaries";
+  mightLikeTxt.innerHTML = "You might also like: ";
   docsSelectorStatus.hidden = false;
+  divisorLine.hidden = false;
 
   createIt(docsList); //create default list with all the series
+  suggestion(allContentArr);
 
   if (docsSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#docs-genre-select").addEventListener("input", (event) => { 
@@ -376,10 +739,14 @@ function showDocs() {
 function showStandup() {
   clearAll();
   contentList.innerHTML = "";
-  allContentTxt.innerHTML = "All Standup Comedies";
+  weekSuggestionList.innerHTML = "";
+  allContentTxt.innerHTML = "All Stand Up Comedies";
+  mightLikeTxt.innerHTML = "You might also like: ";
   standupSelectorStatus.hidden = false;
+  divisorLine.hidden = false;
 
   createIt(standupList); //create default list with all the series
+  suggestion(allContentArr);
 
   if (standupSelectorStatus.hidden === false){  //get the input from the select tag V
     document.querySelector("#standup-genre-select").addEventListener("input", (event) => { 
@@ -428,23 +795,136 @@ function showStandup() {
   return arr[Math.floor(Math.random()*arr.lenght)];
 } */
 
+
 function suggestion (array) {
-  
-  for (i=0; i<8; i++) {
-    const random = array[Math.floor(Math.random()*array.length)];
-    //create li item + create anchor with "href" + img with "src"
-    const newItem = document.createElement("li");
-    const newClick = document.createElement("a");
-    const newImg = document.createElement("img");
-    newClick.setAttribute("href", random.link)
-    newImg.setAttribute("src", random.image);
-    newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
-    newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
-    weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
 
+  if (screenSize < 954){
+    for (i=0; i<4; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
   }
+  else if(screenSize < 1140){
+    for (i=0; i<5; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
+  }
+  else if(screenSize < 1325){
+    for (i=0; i<6; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
+  }
+  else if(screenSize < 1510){
+    for (i=0; i<7; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
+  }
+  else if(screenSize < 1670){
+    for (i=0; i<8; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
+  }
+  else if(screenSize < 1856){
+    for (i=0; i<9; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
+  }
+  else {
+    for (i=0; i<10; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
+  }
+  /* else if(screenSize < 1800){
+    for (i=0; i<7; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
+  }
+  else {
+    for (i=0; i<8; i++) {
+      const random = array[Math.floor(Math.random()*array.length)];
+      //create li item + create anchor with "href" + img with "src"
+      const newItem = document.createElement("li");
+      const newClick = document.createElement("a");
+      const newImg = document.createElement("img");
+      newClick.setAttribute("href", random.link)
+      newImg.setAttribute("src", random.image);
+      newItem.appendChild(newClick); //append the "anchor tag" inside the "li"
+      newClick.appendChild(newImg); //append the "image" inside the "anchor tag"
+      weekSuggestionList.appendChild(newItem); //append the whole list of items(imgs) into the ".listOfContent"
+    }
+  } */
 }
-
 
 
 /* function selectFilter (){
