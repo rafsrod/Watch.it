@@ -502,6 +502,7 @@ function createIt(arrGender) {
 }
 
 divisorLine.hidden = true;
+allContentTxt.style.color = "#141414";
 
 function showHome(){
   clearAll();
@@ -509,6 +510,7 @@ function showHome(){
   weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Content"
   mightLikeTxt.innerHTML = "";
+  allContentTxt.style.color = "#141414";
   divisorLine.hidden = true;
   createIt(allContentArr);
 }
@@ -520,6 +522,7 @@ function showMovies() {
   weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Movies";
   mightLikeTxt.innerHTML = "You might also like: ";
+  allContentTxt.style.color = "white";
   moviesSelectorStatus.hidden = false; //set the filter selector to show on the screen //
   divisorLine.hidden = false;
 
@@ -574,8 +577,9 @@ function showSeries() {
   clearAll();
   contentList.innerHTML = "";
   weekSuggestionList.innerHTML = "";
-  allContentTxt.innerHTML = "All TV Series";
+  allContentTxt.innerHTML = "All TV Shows";
   mightLikeTxt.innerHTML = "You might also like: ";
+  allContentTxt.style.color = "white";
   seriesSelectorStatus.hidden = false;
   divisorLine.hidden = false;
 
@@ -632,6 +636,7 @@ function showAnime() {
   weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Anime";
   mightLikeTxt.innerHTML = "You might also like: ";
+  allContentTxt.style.color = "white";
   animeSelectorStatus.hidden = false;
   divisorLine.hidden = false;
 
@@ -687,6 +692,7 @@ function showDocs() {
   weekSuggestionList.innerHTML = "";
   allContentTxt.innerHTML = "All Documentaries";
   mightLikeTxt.innerHTML = "You might also like: ";
+  allContentTxt.style.color = "white";
   docsSelectorStatus.hidden = false;
   divisorLine.hidden = false;
 
@@ -740,8 +746,9 @@ function showStandup() {
   clearAll();
   contentList.innerHTML = "";
   weekSuggestionList.innerHTML = "";
-  allContentTxt.innerHTML = "All Stand Up Comedies";
+  allContentTxt.innerHTML = "All Stand Up";
   mightLikeTxt.innerHTML = "You might also like: ";
+  allContentTxt.style.color = "white";
   standupSelectorStatus.hidden = false;
   divisorLine.hidden = false;
 
