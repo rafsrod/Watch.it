@@ -740,7 +740,7 @@ function showStandup() {
   clearAll();
   contentList.innerHTML = "";
   weekSuggestionList.innerHTML = "";
-  allContentTxt.innerHTML = "All Stand Up Comedies";
+  allContentTxt.innerHTML = "All Stand Up's";
   mightLikeTxt.innerHTML = "You might also like: ";
   standupSelectorStatus.hidden = false;
   divisorLine.hidden = false;
